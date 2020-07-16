@@ -63,25 +63,52 @@ body{
 }
 
 #first-color{
-  background-color: #ba4b63;
+  /* background-color: #ba4b63; */
+  background-image: url(../img/casetta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #second-color{
-  background-color: #1ea4b6;
+  /* background-color: #1ea4b6; */
+  background-image: url(../img/torta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 #third-color{
-  background-color: #140f0f;
+  /* background-color: #140f0f; */
+  background-image: url(../img/circo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 #fourth-color{
-  background-color: #1c83c1;
+  /* background-color: #1c83c1; */
+  background-image: url(../img/game.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 #fifth-color{
-  background-color: #0e38b5;
+  /* background-color: #0e38b5; */
+  background-image: url(../img/cassaforte.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 #sixth-color{
-  background-color: #ccb2a3;
+  /* background-color: #ccb2a3; */
+  background-image: url(../img/sottomarino.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+#stella2{
+  color: #2c3e50;
+}
 
 
 /*Spaziature*/
@@ -90,14 +117,35 @@ body{
 
 }
 
+#margin_portfolio{
+  margin-left: 20px;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+#margin_portfolio h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
 .main_height{
   height: 250px;
   margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
-#first-color{
-  margin-top: 150px;
+.main_height:hover{
+  background-color: #1abc9c;
+  opacity: 1;
 }
+
+
+
+/* #first-color{
+  margin-top: 150px;
+} */
 
 .central_main_margin{
   margin-top: 20px;
@@ -120,6 +168,10 @@ body{
 /*************************************/
 
 /*Mix*/
+#dimensioni{
+  display: none;
+}
+
 .central_banner{
   position: absolute;
   top: 50%;
@@ -130,7 +182,7 @@ body{
 }
 
 .central_banner h1{
-  font-size: 4rem;
+  font-size: 64px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -179,6 +231,14 @@ body{
   line-height: 33px;
 }
 
+#barra2{
+  width: 112px;
+  height: 4px;
+  background-color: #2c3e50;
+  display: inline-block;
+  line-height: 33px;
+}
+
 .fa-star{
   color: white;
 }
@@ -188,9 +248,9 @@ body{
 
 @media screen and (min-width: 768px){
 
-  #second-color{
+  /* #second-color{
     margin-top: 150px;
-  }
+  } */
 
   .main_height{
     margin-left: 10px;
@@ -200,8 +260,8 @@ body{
 
 @media screen and (min-width: 1200px){
 
-  #third-color{
+  /* #third-color{
     margin-top: 150px;
-  }
+  } */
 
 }
