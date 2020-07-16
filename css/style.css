@@ -244,7 +244,11 @@ body{
 }
 
 /*Responsive*/
-
+@media screen and (min-width: 50px){
+  #nav_color p{
+    font-size: 10px;
+  }
+}
 
 @media screen and (min-width: 768px){
 
@@ -256,6 +260,10 @@ body{
     margin-left: 10px;
   }
 
+  #nav_color p{
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (min-width: 1200px){
@@ -263,5 +271,9 @@ body{
   /* #third-color{
     margin-top: 150px;
   } */
+
+  #nav_color p{
+    font-size: 28px;
+  }
 
 }
