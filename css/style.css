@@ -46,7 +46,7 @@ body{
 #bottom_header_color{
   background-color: #1abc9c;
   margin-top: 100px;
-  height: 500px;
+  height: 550px;
   position: relative;
 }
 
@@ -121,12 +121,30 @@ body{
 
 /*Mix*/
 .central_banner{
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 300px;
+  text-align: center;
+}
+
+.central_banner h1{
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .central_banner img{
   width:250px;
   height: 250px;
+}
+
+.central_banner p{
+  margin-top: 15px;
+  font-size: 24px;
+  color: white;
 }
 
 .white_container{
