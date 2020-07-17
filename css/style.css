@@ -1,31 +1,17 @@
-/* Typo */
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#nav_color p{
-  font-size: 30px;
-  text-transform: uppercase;
-  color: white;
-  font-weight: 900;
+#title_top{
+  font-size:
+  font-weight: bold;
   line-height: 100px;
 }
 
-#nav_color li{
-  display: inline-block;
-  list-style: none;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-size: 17px;
+.btn_green span{
+  font-size: 13px;
+  font-weight: bold;
 }
-
-#nav_color li:hover{
-  color: #1abc9c;
-}
-
-
-
 
 
 /*Colori*/
@@ -35,19 +21,47 @@ body{
 
 #nav_color{
   background-color: #2c3e50;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  line-height: 100px;
+  color: white;
+
+
   height: 100px;
 }
 #bottom_header_color{
-  background-color: #1abc9c;
-  margin-top: 100px;
-  height: 550px;
   position: relative;
+  background-color: #1abc9c;
+
+  height: 700px;
+}
+
+.header_jumbo{
+  position: absolute;
+  color: white;
+  text-align: center;
+
+  width: 70%;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.margin_top_10{
+  margin-top: 10px;
+}
+
+.header_jumbo p{
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.header_jumbo h1{
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.header_jumbo img{
+  width: 240px;
+  height: 254px;
 }
 
 #first_footer_color{
@@ -63,52 +77,30 @@ body{
 }
 
 #first-color{
-  /* background-color: #ba4b63; */
-  background-image: url(../img/casetta.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #ba4b63;
 }
 
 #second-color{
-  /* background-color: #1ea4b6; */
-  background-image: url(../img/torta.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #1ea4b6;
 }
 #third-color{
-  /* background-color: #140f0f; */
-  background-image: url(../img/circo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #140f0f;
 }
 #fourth-color{
-  /* background-color: #1c83c1; */
-  background-image: url(../img/game.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #1c83c1;
 }
 #fifth-color{
-  /* background-color: #0e38b5; */
-  background-image: url(../img/cassaforte.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #0e38b5;
 }
 #sixth-color{
-  /* background-color: #ccb2a3; */
-  background-image: url(../img/sottomarino.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #ccb2a3;
 }
 
-#stella2{
-  color: #2c3e50;
+.btn_green{
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
+
 
 
 /*Spaziature*/
@@ -117,87 +109,63 @@ body{
 
 }
 
-#margin_portfolio{
-  margin-left: 20px;
-  margin-top: 150px;
-  margin-bottom: 30px;
-}
-
-#margin_portfolio h2{
-  font-size: 48px;
-  font-weight: bold;
-  color: #2c3e50;
-}
-
 .main_height{
   height: 250px;
   margin-bottom: 20px;
-  margin-right: 20px;
-  border-radius: 10px;
 }
 
-.main_height:hover{
-  background-color: #1abc9c;
-  opacity: 1;
-}
-
-
-
-/* #first-color{
+#first-color{
   margin-top: 150px;
-} */
+}
 
 .central_main_margin{
   margin-top: 20px;
 }
 
-.wrapper{
-  width: 90%;
-  margin: auto;
-}
 
-#center{
-  margin-left: 35px;
-  margin-right: 35px;
-}
 
-#posizione{
-  margin-right: 25px;
-}
 
-/*************************************/
+
 
 /*Mix*/
-#dimensioni{
-  display: none;
+
+#nav_color ul{
+  line-height: 100px;
 }
 
-.central_banner{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  margin-top: 300px;
-  text-align: center;
-}
-
-.central_banner h1{
-  font-size: 64px;
-  color: white;
-  text-transform: uppercase;
+#nav_color li{
   font-weight: bold;
+  list-style: none;
+  color: white;
+  margin-left: 25px;
+  display: inline-block;
 }
 
-.central_banner img{
-  width:250px;
-  height: 250px;
-}
-
-.central_banner p{
-  margin-top: 15px;
-  font-size: 24px;
+#nav_color li a{
+  text-decoration: none;
+  font-size: 16px;
   color: white;
 }
+
+/* Vedere questa parte */
+
+#nav_color li a:hover{
+  color: #1abc9c;
+  cursor: pointer;
+}
+
+
+.glyphicon-menu-hamburger{
+  color: white;
+  line-height: 100px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+.btn_margin{
+  line-height: 80px;
+}
+
 
 .white_container{
   height: 600px;
@@ -223,56 +191,82 @@ body{
   clear: both;
 }
 
-#barra{
-  width: 112px;
-  height: 4px;
+.barra{
+  display: inline-block;
   background-color: white;
-  display: inline-block;
-  line-height: 33px;
-}
-
-#barra2{
   width: 112px;
   height: 4px;
-  background-color: #2c3e50;
-  display: inline-block;
-  line-height: 33px;
+
+  border-radius: 3px;
 }
 
 .fa-star{
+  font-size: 32px;
   color: white;
+  vertical-align: middle;
+
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
+.margini{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
 
 /*Responsive*/
-@media screen and (min-width: 50px){
-  #nav_color p{
-    font-size: 10px;
-  }
-}
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
 
-  /* #second-color{
-    margin-top: 150px;
-  } */
-
-  .main_height{
-    margin-left: 10px;
+ #title_top{
+    font-weight: bold;
+    font-size: 20px;
   }
 
-  #nav_color p{
+  .header_jumbo h1{
     font-size: 20px;
   }
 
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 768px){
 
-  /* #third-color{
+  #second-color{
     margin-top: 150px;
-  } */
+  }
 
-  #nav_color p{
+  .main_height{
+    margin-left: 10px;
+  }
+
+
+  #title_top{
+    font-size: 20px;
+  }
+
+  .header_jumbo h1{
+    font-size: 44px;
+  }
+
+  .header_jumbo p{
+    font-size: 44px;
+  }
+}
+
+@media screen and (min-width: 991px){
+
+  #third-color{
+    margin-top: 150px;
+  }
+
+
+
+  #title_top{
     font-size: 28px;
   }
 

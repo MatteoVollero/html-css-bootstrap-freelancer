@@ -5,43 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;900&display=swap" rel="stylesheet">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
     <title>Freelancer</title>
 
   </head>
   <body>
       <header>
         <!-- Navbar -->
-        <div id="nav_color" class="container-fluid">
-          <div class="row">
-            <div class="col-xs-5 text-center">
-              <p>start bootstrap</p>
-            </div>
-            <div class="visible-lg col-xs-push-1 col-xs-5 text-right">
-              <ul>
-                <li>portfolio</li>
-                <li id="center">about</li>
-                <li id="posizione">contact</li>
-              </ul>
-            </div>
-            <div class=" col-xs-6 hidden-lg text-right">
-              <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        <div id="nav_color" class="container_flex">
+          <div class="container">
+            <div class="row">
+              <div  class="col-xs-6 text-uppercase">
+                <p id="title_top">start bootstrap</p>
+              </div>
+              <div class="col-xs-6 hidden-xs hidden-sm text-uppercase text-right">
+                <ul>
+                  <li> <a href="#">portfolio</a></li>
+                  <li> <a href="#">about</a></li>
+                  <li> <a href="#">contact</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-6 text-right hidden-md hidden-lg btn_margin">
+                <div class="btn btn_green">
+                  <span>MENU</span>
+                  <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </div>
+
+              </div>
+
             </div>
           </div>
         </div>
         <!-- /Navbar -->
 
-        <div class="container-fluid">
-            <div id="bottom_header_color" class="row">
-            <div class="col-xs-12">
-              <div class="central_banner">
-                <img src="img/ragazzo.svg" alt="Immagine ragazzo">
-                <h1>start bootstrap</h1>
-                <span id="barra"></span> <i class="fas fa-star"></i> <span id="barra"></span>
-                <p>Graphic Artist - Web Designer - Illustrator</p>
-              </div>
+        <div class="wrapper">
+          <div id="bottom_header_color">
+            <div class="header_jumbo">
+              <img src="img/ragazzo.svg" alt="Ragazzo">
+              <h1 class="text-uppercase">start bootstrap</h1>
+              <span class="barra margin_top_10"></span><i class="fas fa-star margin_top_10"></i><span class="barra margin_top_10"></span>
+
+              <p class="text-capitalize">graphic artist - web designer - illustrator</p>
             </div>
           </div>
         </div>
@@ -51,46 +62,33 @@
       <!--Struttura delle varie icone del main  -->
         <div class="container">
           <div class="row">
-            <div id="margin_portfolio" class="col-xs-push-4 col-xs-3 text-center">
-              <h2 id="colore">PORTFOLIO</h2>
-              <span id="barra2"></span> <i id="stella2" class="fas fa-star"></i> <span id="barra2"></span>
-            </div>
-          </div>
-
-          <div class="row">
             <div id="first-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
 
-              <img id="dimensioni" src="img/casetta.png" alt="Casa">
 
             </div>
 
             <div id="second-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
 
-              <img id="dimensioni" src="img/torta.png" alt="Torta">
 
             </div>
 
             <div id="third-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
 
-              <img id="dimensioni" src="img/circo.png" alt="Circo">
 
             </div>
 
             <div id="fourth-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
 
-              <img id="dimensioni" src="img/game.png" alt="Gioco">
 
             </div>
 
             <div id="fifth-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
 
-              <img id="dimensioni" src="img/cassaforte.png" alt="Cassaforte">
 
             </div>
 
             <div id="sixth-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
 
-              <img id="dimensioni" src="img/sottomarino.png" alt="Sottomarino">
 
             </div>
           </div>
@@ -98,8 +96,8 @@
       <!-- /Struttura delle varie icone del main  -->
 
         <!-- Parte centrale del main -->
-        <div id="bottom_header_color" class="container-fluid">
-          <div class="col-xs-12 central_main_margin central_text">
+        <div class="container-flex">
+          <div id="bottom_header_color" class="col-xs-12 central_main_margin central_text">
               <div class="row">
                 <div class="col-xs-12 col-sm-12 about"> about</div>
                 <div class="col-xs-12 col-sm-push-1 col-sm-5 about">lorem</div>
@@ -122,29 +120,27 @@
       </main>
 
       <footer>
-          <div class="container-fluid">
-            <div id="first_footer_color" class="row">
-              <div class="col-xs-push-1 col-xs-10">
-                <div class="row">
-                  <div class="wrapper">
-                    <div class="col-xs-12 col-sm-push-1 col-sm-3 central_text">
-                    prova
-                    </div>
+        <div class="container-flex">
+          <div id="first_footer_color" class="row">
+            <div class="col-xs-push-1 col-xs-10">
+              <div class="row">
+                <div class="col-xs-12 col-sm-push-1 col-sm-3 central_text">
+                prova
+                </div>
 
-                    <div class="col-xs-12 col-sm-push-1 col-sm-3 central_text">
-                    prova
-                    </div>
+                <div class="col-xs-12 col-sm-push-1 col-sm-3 central_text">
+                prova
+                </div>
 
-                    <div class="col-xs-12 col-sm-push-1 col-sm-3 central_text">
-                    prova
-                    </div>
-                  </div>
+                <div class="col-xs-12 col-sm-push-1 col-sm-3 central_text">
+                prova
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-        <div class="container-fluid">
+        <div class="container-flex">
           <div id="second_footer_color"  class="row">
             <div class="col-xs-12">
 
