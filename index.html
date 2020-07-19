@@ -3,150 +3,271 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap Freelancer</title>
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- font awesome -->
+    <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-
-
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <title>Freelancer</title>
-
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      <header>
-        <!-- Navbar -->
-        <div id="nav_color" class="container_flex">
-          <div class="container">
-            <div class="row">
-              <div  class="col-xs-6 text-uppercase">
-                <p id="title_top">start bootstrap</p>
-              </div>
-              <div class="col-xs-6 hidden-xs hidden-sm text-uppercase text-right">
-                <ul>
-                  <li> <a href="#">portfolio</a></li>
-                  <li> <a href="#">about</a></li>
-                  <li> <a href="#">contact</a></li>
+    <!-- header -->
+    <header>
+      <!-- header top -->
+      <div class="header_top bg_light_blue">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-9 col-md-6">
+              <div class="logo"> Start Bootstrap </div>
+            </div>
+            <div class="col-xs-3 col-md-6 text-right">
+              <!-- navigation -->
+              <nav class="visible-md visible-lg">
+                <ul class="list-inline">
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
+              </nav>
+              <!-- /navigation -->
+              <!-- hamburger -->
+              <div class="visible-xs visible-sm">
+                <button type="button" class="btn btn-lg btn_green" aria-label="Left Align">
+                  MENU <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
               </div>
-              <div class="col-xs-6 text-right hidden-md hidden-lg btn_margin">
-                <div class="btn btn_green">
-                  <span>MENU</span>
-                  <span class="glyphicon glyphicon-menu-hamburger"></span>
-                </div>
-
-              </div>
-
+              <!-- /hamburger -->
             </div>
           </div>
         </div>
-        <!-- /Navbar -->
-
-        <div class="wrapper">
-          <div id="bottom_header_color">
-            <div class="header_jumbo">
-              <img src="img/ragazzo.svg" alt="Ragazzo">
-              <h1 class="text-uppercase">start bootstrap</h1>
-              <span class="barra margin_top_10"></span><i class="fas fa-star margin_top_10"></i><span class="barra margin_top_10"></span>
-
-              <p class="text-capitalize">graphic artist - web designer - illustrator</p>
-            </div>
+      </div>
+      <!-- /header top -->
+      <!-- jumbotron -->
+      <div class="jumbo bg_green">
+        <div class="jumbo_text">
+          <img class="jumbo_img" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="Man">
+          <h1>START BOOTSTRAP</h1>
+          <div class="dec_star">
+            <i class="fas fa-star"></i>
           </div>
+          <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
-      </header>
+      </div>
+      <!-- /jumbotron -->
+    </header>
+    <!-- header -->
 
-      <main>
-      <!--Struttura delle varie icone del main  -->
+    <!-- main -->
+    <main>
+      <!-- section portfolio -->
+      <section id="portfolio" class="p_top_80 p_bottom_80">
         <div class="container">
           <div class="row">
-            <div id="first-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
-
-
-            </div>
-
-            <div id="second-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
-
-
-            </div>
-
-            <div id="third-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
-
-
-            </div>
-
-            <div id="fourth-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
-
-
-            </div>
-
-            <div id="fifth-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
-
-
-            </div>
-
-            <div id="sixth-color" class="col-xs-push-1 col-xs-10 col-sm-5 col-lg-3 main_height">
-
-
-            </div>
-          </div>
-        </div>
-      <!-- /Struttura delle varie icone del main  -->
-
-        <!-- Parte centrale del main -->
-        <div class="container-flex">
-          <div id="bottom_header_color" class="col-xs-12 central_main_margin central_text">
-              <div class="row">
-                <div class="col-xs-12 col-sm-12 about"> about</div>
-                <div class="col-xs-12 col-sm-push-1 col-sm-5 about">lorem</div>
-                <div class="col-xs-12 col-sm-push-1 col-sm-5 about">lorem</div>
-                <div class="col-xs-12 col-sm-12 about">bottone</div>
+            <div class="col-xs-12 text-center">
+              <h2 class="text-uppercase">PORTFOLIO</h2>
+              <div class="dec_star dec_star_dark">
+                <i class="fas fa-star"></i>
               </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio">
+                <div class="overlay">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/casetta.png" alt="Casetta">
+              </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio">
+                <div class="overlay">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/torta.png" alt="Casetta">
+              </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio">
+                <div class="overlay">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/circo.png" alt="Casetta">
+              </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio">
+                <div class="overlay">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/game.png" alt="Casetta">
+              </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio">
+                <div class="overlay">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/cassaforte.png" alt="Casetta">
+              </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio">
+                <div class="overlay">
+                  <i class="fas fa-plus"></i>
+                </div>
+                <img src="img/sottomarino.png" alt="Casetta">
+              </div>
+            </div>
           </div>
         </div>
-        <!-- /Parte centrale del main -->
+      </section>
+      <!-- /section portfolio -->
 
-        <!-- Contact me messo in verde in modo da poterlo vedere -->
+      <!-- section about -->
+      <section id="about" class="p_top_80 p_bottom_80 bg_green">
+        <div class="wrapper_small">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <h2 class="text-uppercase">ABOUT</h2>
+                <div class="dec_star">
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+              </div>
+              <div class="col-xs-12 text-center">
+                <button type="button" class="btn btn-lg btn_download m_top_30">
+                  <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Free Download
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section about -->
+
+      <!-- section contact -->
+      <section id="contact" class="p_top_80 p_bottom_80">
         <div class="container">
           <div class="row">
-            <div class="col-xs-push-1 col-xs-10 white_container">
-
-            </div>
-          </div>
-        </div>
-        <!-- /Contact me messo in verde in modo da poterlo vedere -->
-      </main>
-
-      <footer>
-        <div class="container-flex">
-          <div id="first_footer_color" class="row">
-            <div class="col-xs-push-1 col-xs-10">
-              <div class="row">
-                <div class="col-xs-12 col-sm-push-1 col-sm-3 central_text">
-                prova
-                </div>
-
-                <div class="col-xs-12 col-sm-push-1 col-sm-3 central_text">
-                prova
-                </div>
-
-                <div class="col-xs-12 col-sm-push-1 col-sm-3 central_text">
-                prova
-                </div>
+            <div class="col-xs-12 text-center">
+              <h2 class="text-uppercase">Contact me</h2>
+              <div class="dec_star dec_star_dark">
+                <i class="fas fa-star"></i>
               </div>
             </div>
           </div>
         </div>
+        <div class="wrapper_small">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="form-group">
+                  <input type="text" name="Name" value="" placeholder="Name" class="form-control modify margin_top_80">
+                </div>
+              </div>
+            </div>
 
-        <div class="container-flex">
-          <div id="second_footer_color"  class="row">
-            <div class="col-xs-12">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="form-group">
+                  <input type="text" name="Name" value="" placeholder="Email Address" class="form-control modify margin_top_20">
+                </div>
+              </div>
+            </div>
 
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="form-group">
+                  <input type="text" name="Name" value="" placeholder="Phone Number" class="form-control modify margin_top_20">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="form-group">
+                  <textarea name="name" rows="8" placeholder="Message"
+                   cols="80"></textarea>
+                   <hr>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="btn btn-xl btn_green btn_resize">Send</div>
+            <div class="form-group">
+
+
+          </div>
+        </div>
+      </section>
+      <!-- /section contact -->
+    </main>
+    <!-- /main -->
+
+    <!-- footer -->
+    <footer class="text-center">
+      <!-- footer top -->
+      <div class="footer_top bg_light_blue p_top_80 p_bottom_80">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4 text-center">
+              <h3>LOCATION</h3>
+              <p class="footer_paragrafo">2215 John Daniel Drive
+Clark, MO 65243 </p>
+
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <ul class="social_list">
+                <h3>AROUND THE WEB</h3>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fas fa-basketball-ball"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <h3>ABOUT FREELANCER</h3>
+              <p>Freelance is a free to use, MIT
+                <br>
+                licensed Bootstrap theme created by
+                <br>
+                <a class="link_boot" href="#">Start Bootstrap </a>. </p>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+      <!-- /footer top -->
+
+      <!-- footer bottom -->
+      <div class="footer_bottom">
+        Copyright © Your Website 2020
+      </div>
+      <!-- footer bottom -->
+    </footer>
+    <!-- /footer -->
   </body>
 </html>
